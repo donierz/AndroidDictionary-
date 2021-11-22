@@ -1,0 +1,16 @@
+https://www.geeksforgeeks.org/android-creating-multiple-screen-app/
+https://developer.android.com/training/basics/firstapp/starting-activity#run
+https://stackoverflow.com/questions/10017808/best-data-structure-for-implementing-a-dictionary
+https://stackoverflow.com/questions/6485186/if-key-in-hashtable-is-a-class-object-how-does-containskey-work
+https://stackoverflow.com/questions/34473622/which-data-structure-is-most-suitable-to-implement-a-dictionary
+https://stackoverflow.com/questions/3809308/best-data-structure-for-dictionary-in-java-and-also-python
+
+https://stackoverflow.com/questions/38432282/what-can-be-a-faster-implementation-of-trie-for-the-following-use-case
+https://stackoverflow.com/questions/19616972/how-to-add-an-object-to-an-arraylist-in-java
+https://stackoverflow.com/questions/8520808/how-to-remove-specific-object-from-arraylist-in-java/48444874#:~:text=In%20general%20an%20object%20can,to%20identify%20the%20correct%20object.
+
+https://learntodroid.com/how-to-switch-between-activities-in-android/
+
+https://developer.android.com/reference/android/widget/EditText
+
+https://stackoverflow.com/questions/5897181/is-there-anyway-to-make-an-edittext-start-typing-at-the-top-left-corner-of-the-e

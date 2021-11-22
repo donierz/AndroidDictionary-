@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AlexDictionary</string>
+    <string name="Enter">Enter Your Word</string>
+    <string name="Find">Find</string>
+    <string name="FW1">Frequent Word 1</string>
+    <string name="FW2">Frequent Word 2</string>
+    <string name="FW3">Frequent Word 3</string>
+    <string name="W1">Word 1</string>
+    <string name="W2">Word 2</string>
+    <string name="W3">Word 3</string>
+    <string name="NW">New Word</string>
+    <string name="Remove">Remove</string>
+
+
+</resources>
+
