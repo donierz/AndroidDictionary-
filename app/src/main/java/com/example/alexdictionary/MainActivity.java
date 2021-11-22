@@ -17,6 +17,8 @@ public class MainActivity extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
 
         Word = findViewById(R.id.editText); // grabs input view and assign it to variable display
+        final DictionaryAlgorithm dic = new DictionaryAlgorithm();
+        final Word wd = new Word();
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);

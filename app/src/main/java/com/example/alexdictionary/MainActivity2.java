@@ -20,6 +20,9 @@ public class MainActivity2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+        final DictionaryAlgorithm dic = new DictionaryAlgorithm();
+        final Word wd = new Word();
+
 
         Word = findViewById(R.id.Word); // grabs input view and assign it to variable display
         Frequency = findViewById(R.id.Frequency);

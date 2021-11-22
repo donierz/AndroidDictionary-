@@ -3,7 +3,12 @@ package com.example.alexdictionary;
 import java.util.ArrayList;
 import java.util.Dictionary;
 
+
 public class Word extends MainActivity2 {
+
+    ArrayList<String> DictionarySearch = new ArrayList<String>();
+    ArrayList<Word> DictionaryContent = new ArrayList<Word>();
+
     private int frequency;
     private String meaning;
     private String word;
@@ -23,10 +28,6 @@ public class Word extends MainActivity2 {
         this.meaning = meaning;
     }
 
-    public Word(String newWord){
-        word = newWord;
-        this.frequency = (Word)newWord.getFrequency();
-    }
 
     public int getFrequency(String word){
         return frequency;
