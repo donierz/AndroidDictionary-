@@ -9,13 +9,12 @@ import android.view.View;
 import android.widget.EditText;
 import java.util.ArrayList;
 
-public class MainActivity2 extends AppCompatActivity {
+public class MainActivity2 extends MainActivity {
 
     private EditText Word;
     private EditText Frequency;
     private EditText Meaning;
     int freq;
-    final DictionaryAlgorithm dic = new DictionaryAlgorithm();
     // String sessionID = getIntent().getStringExtra("EXTRA_SESSION_ID");
 
     @Override
@@ -31,8 +30,6 @@ public class MainActivity2 extends AppCompatActivity {
     public void finish(View view){
         finish();
     }
-
-
     public void addWord(View view){
 
         if (Frequency.getText().toString() == "") { // if user does not enter in a frequency, freq automatically set to 1
@@ -43,7 +40,9 @@ public class MainActivity2 extends AppCompatActivity {
             freq = Integer.parseInt(Frequency.getText().toString());
         }
 
-        dic.addWord(Word.getText().toString(), freq, Meaning.getText().toString());
+        // perform addWord
+        // MainActivity.wordFreqTable.put()
+
     }
 
     public void clearBTN(View view){
@@ -53,16 +52,15 @@ public class MainActivity2 extends AppCompatActivity {
         Meaning.setText("");
     }
 
-    /*
+
     public void removeWord(View view){
 
-
-        dic.removeWord(sessionID);
-
+        //wordFreqTable.remove(sessionID);
+        //wordMeaningTable.remove(sessionID);
 
     }
 
-     */
+
 
 
 

@@ -6,15 +6,19 @@ import android.view.View;
 import android.content.Intent;
 import android.widget.EditText;
 import android.widget.TextView;
-
 import java.util.HashMap;
-
+import java.util.Hashtable;
 
 public class MainActivity extends AppCompatActivity{
 
-    HashMap<String, Integer> wordFreqTable = new HashMap<>();
-    HashMap<String, String> wordMeaningTable = new HashMap<>();
+    Hashtable<String, Integer> wordFreqTable = new Hashtable<>();
+    Hashtable<String, String> wordMeaningTable = new Hashtable<>();
+    // then implement getter and setter
 
+
+    // calling by reference in Java (look into this)
+    // define hashmap as a global variable -> make global variable
+    // or making it a static variable, which makes it global
     private EditText Word;
     private TextView Freq1;
     private TextView Freq2;
@@ -30,7 +34,6 @@ public class MainActivity extends AppCompatActivity{
         Freq2 = findViewById(R.id.Freq2);
         Freq3 = findViewById(R.id.Freq3);
         Meaning = findViewById(R.id.MeaningText);
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -42,14 +45,11 @@ public class MainActivity extends AppCompatActivity{
 
     }
 
-    /*
 
     public void find(View view){
-
         // implement Toaster if the user tries to find an empty word
-
         String wordFind = Word.getText().toString();
-        Intent findWord = new Intent(getBaseContext(), MainActivity2.class);
+        Intent findWord = new Intent(MainActivity.this, MainActivity2.class);
         findWord.putExtra("EXTRA_SESSION_ID", wordFind);
         startActivity(findWord);
 
@@ -60,10 +60,5 @@ public class MainActivity extends AppCompatActivity{
 
 
     }
-
-     */
-
-
-
 
 }
